@@ -1,5 +1,7 @@
 # Módulo 00, Comece Aqui
 
+🇧🇷 Português · 🇺🇸 [English](./00-comece-aqui.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

@@ -1,5 +1,7 @@
 # Módulo 12, Projeto Guiado: O Banco do Buscador de Grupos
 
+🇧🇷 Português · 🇺🇸 [English](./12-projeto-guiado.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

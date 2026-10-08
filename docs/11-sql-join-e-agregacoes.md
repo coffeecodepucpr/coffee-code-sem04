@@ -1,5 +1,7 @@
 # Módulo 11, SQL: JOIN e Agregações
 
+🇧🇷 Português · 🇺🇸 [English](./11-sql-join-e-agregacoes.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

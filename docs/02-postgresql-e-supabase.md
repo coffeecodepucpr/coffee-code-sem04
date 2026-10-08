@@ -1,5 +1,7 @@
 # Módulo 02, PostgreSQL e Supabase
 
+🇧🇷 Português · 🇺🇸 [English](./02-postgresql-e-supabase.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

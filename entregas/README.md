@@ -1,5 +1,7 @@
 # Entregas — Semana 04
 
+🇧🇷 Português · 🇺🇸 [English](README.en.md)
+
 Aqui ficam as entregas de quem fez a Semana 04. A lista com o projeto de cada pessoa está no [README principal](../README.md#entregas-da-turma).
 
 ## Como entregar

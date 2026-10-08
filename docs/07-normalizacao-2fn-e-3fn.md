@@ -1,5 +1,7 @@
 # Módulo 07, Normalização: 2FN e 3FN
 
+🇧🇷 Português · 🇺🇸 [English](./07-normalizacao-2fn-e-3fn.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

@@ -1,5 +1,7 @@
 # Exemplos executáveis, Semana 04
 
+🇧🇷 Português · 🇺🇸 [English](./README.en.md)
+
 Esta pasta reúne tudo que pode ser executado nesta semana. É referência, e não gabarito obrigatório: o seu projeto precisa aplicar os mesmos conceitos, não ser igual a este.
 
 ## `sql/`: a trilha principal

@@ -1,5 +1,7 @@
 # Módulo 08, Tipos de Dados e Chaves
 
+🇧🇷 Português · 🇺🇸 [English](./08-tipos-de-dados-e-chaves.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

@@ -1,5 +1,7 @@
 # Módulo 14, Migrations
 
+🇧🇷 Português · 🇺🇸 [English](./14-migrations.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

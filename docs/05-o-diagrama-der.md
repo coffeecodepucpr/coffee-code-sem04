@@ -1,5 +1,7 @@
 # Módulo 05, O Diagrama DER
 
+🇧🇷 Português · 🇺🇸 [English](./05-o-diagrama-der.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

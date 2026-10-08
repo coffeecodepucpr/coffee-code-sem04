@@ -1,5 +1,7 @@
 # Módulo 13, Índices e Desempenho
 
+🇧🇷 Português · 🇺🇸 [English](./13-indices-e-desempenho.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---

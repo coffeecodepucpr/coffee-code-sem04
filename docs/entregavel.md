@@ -1,5 +1,7 @@
 # Entregável, Semana 04
 
+🇧🇷 Português · 🇺🇸 [English](./entregavel.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 Use este arquivo como checklist final antes de considerar a Semana 04 concluída. Ele reúne o que é **obrigatório**; os desafios extras em `desafios.md` e os Módulos 13 a 15 da trilha veterano são opcionais.

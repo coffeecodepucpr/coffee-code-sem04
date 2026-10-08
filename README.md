@@ -1,5 +1,7 @@
 # ☕ Coffee & Code — SEM 04 | Modelagem de Dados
 
+🇧🇷 Português · 🇺🇸 [English](README.en.md)
+
 ```text
 > module: sem-04
 > tema: modelagem de dados
@@ -9,9 +11,17 @@
 
 Material da **Semana 04** da trilha do Coffee & Code, o clube de tecnologia da PUCPR.
 
+## Sobre
+
+☕ Coffee & Code PUCPR — Semana 04: Modelagem de Dados. PostgreSQL, Supabase, DER, normalização (1FN a 3FN) e SQL, levando o Buscador de Grupos de Estudo dos arrays da Semana 03 para um banco relacional de verdade.
+
+---
+
 Na Semana 03 as telas ganharam comportamento: o Login valida, o Dashboard renderiza e filtra os cards, o Perfil reage sem recarregar a página. Mas faça um teste: saia de um grupo e recarregue a página. O grupo está de volta. Os dados moram em arrays dentro do `script.js` e somem a cada recarregamento.
 
 A Semana 04 existe para dar um lugar de verdade a esses dados: PostgreSQL, Supabase, DER, normalização (1FN a 3FN) e SQL. No fim da semana o Buscador de Grupos de Estudo tem um banco relacional bem desenhado, ativo e com dados dentro — ainda sem ligar a página a ele, mas com o modelo pronto.
+
+> **Sobre o idioma:** todo arquivo `.md` deste repositório tem uma versão em inglês, com o sufixo `.en.md`.
 
 ## Por onde começar
 

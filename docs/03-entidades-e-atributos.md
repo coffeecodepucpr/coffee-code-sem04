@@ -1,5 +1,7 @@
 # Módulo 03, Entidades e Atributos
 
+🇧🇷 Português · 🇺🇸 [English](./03-entidades-e-atributos.en.md)
+
 `SEM 04 // Modelagem de Dados`
 
 ---
