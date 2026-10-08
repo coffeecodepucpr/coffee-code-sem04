@@ -1,0 +1,3 @@
+sqlalchemy>=2.0,<2.1
+alembic
+psycopg[binary]

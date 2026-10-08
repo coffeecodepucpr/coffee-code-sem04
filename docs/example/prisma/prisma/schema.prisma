@@ -1,0 +1,65 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Usuario {
+  id            BigInt         @id @default(autoincrement()) @map("usuario_id")
+  nome          String         @map("nome_usuario")
+  email         String         @unique
+  criadoEm      DateTime       @default(now()) @map("criado_em") @db.Timestamptz(6)
+  participacoes Participacao[]
+
+  @@map("usuarios")
+}
+
+model Materia {
+  id     BigInt  @id @default(autoincrement()) @map("materia_id")
+  nome   String  @unique
+  codigo String  @unique
+  grupos Grupo[]
+
+  @@map("materias")
+}
+
+model Grupo {
+  id               BigInt         @id @default(autoincrement()) @map("grupo_id")
+  nome             String         @map("nome_grupo")
+  materiaId        BigInt         @map("materia_id")
+  maxParticipantes Int            @default(10) @map("max_participantes")
+  criadoEm         DateTime       @default(now()) @map("criado_em") @db.Timestamptz(6)
+  materia          Materia        @relation(fields: [materiaId], references: [id])
+  participacoes    Participacao[]
+  encontros        Encontro[]
+
+  @@index([materiaId])
+  @@map("grupos")
+}
+
+model Participacao {
+  usuarioId BigInt   @map("usuario_id")
+  grupoId   BigInt   @map("grupo_id")
+  entrouEm  DateTime @default(dbgenerated("CURRENT_DATE")) @map("entrou_em") @db.Date
+  usuario   Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+  grupo     Grupo    @relation(fields: [grupoId], references: [id], onDelete: Cascade)
+
+  @@id([usuarioId, grupoId])
+  @@index([grupoId])
+  @@map("participacoes")
+}
+
+model Encontro {
+  id         BigInt   @id @default(autoincrement()) @map("encontro_id")
+  grupoId    BigInt   @map("grupo_id")
+  diaSemana  Int      @db.SmallInt @map("dia_semana")
+  horaInicio DateTime @db.Time(6) @map("hora_inicio")
+  local      String
+  grupo      Grupo    @relation(fields: [grupoId], references: [id], onDelete: Cascade)
+
+  @@index([grupoId])
+  @@map("encontros")
+}

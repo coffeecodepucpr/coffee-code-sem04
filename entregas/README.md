@@ -1,0 +1,55 @@
+# Entregas — Semana 04
+
+Aqui ficam as entregas de quem fez a Semana 04. A lista com o projeto de cada pessoa está no [README principal](../README.md#entregas-da-turma).
+
+## Como entregar
+
+1. Faça um **fork** deste repositório (botão *Fork*, no canto superior direito).
+2. No seu fork, crie a pasta `entregas/Nome Sobrenome/` — com o seu nome e sobrenome.
+3. Coloque seus arquivos dentro dela, seguindo a estrutura abaixo.
+4. Faça commit e push no seu fork.
+5. Abra um **Pull Request** para este repositório e preencha o modelo que aparece.
+
+Depois do merge, a sua entrega entra na tabela do README principal.
+
+> **Prefere manter o projeto no seu próprio repositório?** Também vale. Mande o link no Discord ou [abra uma issue](../../../issues/new) aqui com o link da pasta da semana, e ele entra na tabela do mesmo jeito. Só capriche no `README.md`, como explicado abaixo, porque é ele que vai aparecer primeiro.
+
+## Estrutura esperada
+
+```text
+entregas/Nome Sobrenome/
+├── README.md
+├── login.html
+├── dashboard.html
+├── perfil.html
+├── script.js
+├── css/
+│   └── styles.css
+├── sql/               ← novo
+│   ├── 01-schema.sql
+│   ├── 02-seed.sql
+│   └── 03-consultas.sql
+└── docs/              ← os documentos das semanas anteriores, atualizados
+    ├── der.png        ← novo
+    └── arquitetura.md ← com o modelo e o dicionário de dados
+```
+
+- Pasta de documentação é `docs/` (não `doc/`).
+- Nomes de arquivo em minúsculas, separados por hífen e **com extensão**: `historias-de-usuario.md`, não `historia de usuario`.
+- **Nunca** envie a senha do banco nem um arquivo `.env`. Se precisar mostrar a conexão, use um `.env.example` sem senha.
+- Altere só arquivos dentro da sua pasta.
+
+## O que o seu README precisa ter
+
+O `README.md` da sua pasta é a capa do seu projeto. Quem abrir precisa entender, sem você explicar:
+
+- **o nome do projeto** como título (`# Shelf Hub`, não `# Atividade`);
+- **uma frase** dizendo o que ele é;
+- **o problema** que resolve e **quem** vai usar;
+- **o link do protótipo no Figma**;
+- **como abrir as telas**, se houver (qual `.html` abrir primeiro);
+- **como recriar o banco**: em que ordem rodar os scripts da pasta `sql/`.
+
+## Já entregou em outra semana?
+
+Sem problema repetir o mesmo projeto. Só lembre que cada semana é uma pasta completa: envie a versão atualizada dele aqui também.
