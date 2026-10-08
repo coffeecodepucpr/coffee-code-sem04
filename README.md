@@ -21,7 +21,7 @@ Na Semana 03 as telas ganharam comportamento: o Login valida, o Dashboard render
 
 A Semana 04 existe para dar um lugar de verdade a esses dados: PostgreSQL, Supabase, DER, normalização (1FN a 3FN) e SQL. No fim da semana o Buscador de Grupos de Estudo tem um banco relacional bem desenhado, ativo e com dados dentro — ainda sem ligar a página a ele, mas com o modelo pronto.
 
-> **Sobre o idioma:** todo arquivo `.md` deste repositório tem uma versão em inglês, com o sufixo `.en.md`.
+> **Sobre o idioma:** o material em inglês fica em [`docs-eng/`](docs-eng/), com a mesma estrutura de [`docs/`](docs/); os READMEs têm versão em inglês com o sufixo `.en.md`.
 
 ## Por onde começar
 

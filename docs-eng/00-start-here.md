@@ -1,6 +1,6 @@
 # Module 00, Start Here
 
-🇧🇷 [Português](./00-comece-aqui.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/00-comece-aqui.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -15,7 +15,7 @@ This is not a flaw in what you built, and it is exactly where Week 03 said it wo
 ## // What changes from now on
 
 <div align="center">
-<img src="./assets/mock-para-tabela.svg" alt="An array of JavaScript objects becoming the rows of a database table" width="640">
+<img src="../docs/assets/mock-para-tabela.svg" alt="An array of JavaScript objects becoming the rows of a database table" width="640">
 </div>
 
 Each object in the array becomes a row in a table, and each property becomes a column. But that "becomes" hides the hard part: which tables should exist, how they connect to each other, and how to avoid storing the same information in two places. That is what a week of data modeling is about.
@@ -74,6 +74,6 @@ Each module is a standalone file, but they were written to be read in this order
 
 ---
 
-**Next module:** `01-por-que-um-banco-relacional.en.md`, before drawing any table, understand what a database solves that an array does not.
+**Next module:** `01-why-a-relational-database.md`, before drawing any table, understand what a database solves that an array does not.
 
 `Study Material // Coffee & Code`

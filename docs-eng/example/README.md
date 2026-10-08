@@ -1,8 +1,8 @@
 # Runnable examples, Week 04
 
-🇧🇷 [Português](./README.md) · 🇺🇸 English
+🇧🇷 [Português](../../docs/example/README.md) · 🇺🇸 English
 
-This folder gathers everything that can be run this week. It is a reference, not a required answer key: your project needs to apply the same concepts, not be identical to this one.
+The runnable files for this week live in [`docs/example/`](../../docs/example/); this page is the English guide to them. It is a reference, not a required answer key: your project needs to apply the same concepts, not be identical to this one.
 
 > The code, file names, table names and comments in these files are in Portuguese, to match the rest of the material: `usuarios` (users), `materias` (subjects), `grupos` (groups), `participacoes` (memberships), `encontros` (meetings).
 

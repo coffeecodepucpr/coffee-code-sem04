@@ -1,6 +1,6 @@
 # Module 13, Indexes and Performance
 
-🇧🇷 [Português](./13-indices-e-desempenho.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/13-indices-e-desempenho.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -9,7 +9,7 @@
 ## // Before you start
 
 > **VETERAN TRACK**
-> This module is part of the veteran track: it comes after the essential content and is not needed for the week's deliverable. If you follow the main track, you can skip to `entregavel.en.md`.
+> This module is part of the veteran track: it comes after the essential content and is not needed for the week's deliverable. If you follow the main track, you can skip to `deliverable.md`.
 
 With the database working and the data inside, a new question comes up: does it stay fast when the tables grow? This module teaches you how to measure a query's time, how to read the execution plan PostgreSQL chooses and how to create indexes that speed up searches.
 
@@ -23,7 +23,7 @@ With the example data, any query answers instantly, because the `participacoes` 
 > It is an auxiliary structure, stored separately, that the database consults to find rows without having to read the whole table. It works like the index at the back of a book: instead of flipping through every page looking for a topic, you go straight to the pages listed.
 
 <div align="center">
-<img src="./assets/indice-vs-varredura.svg" alt="Comparison between reading every row one by one and using an index to go straight to the right rows" width="640">
+<img src="../docs/assets/indice-vs-varredura.svg" alt="Comparison between reading every row one by one and using an index to go straight to the right rows" width="640">
 </div>
 
 The most common index type in PostgreSQL is the **B-tree**, which keeps the values sorted and lets you find one of them in a few steps, even in huge tables.
@@ -61,7 +61,7 @@ The result is the **execution plan**: the list of steps the database followed, w
 
 ## // The experiment: 300 thousand rows, with and without an index
 
-The file `example/sql/05-laboratorio-indices.sql` sets up a lab in a separate schema, called `lab`, so it does not mix with your project's tables. It creates a table similar to `participacoes`, with 300 thousand rows and no index, and runs the same search before and after creating the index.
+The file `docs/example/sql/05-laboratorio-indices.sql` sets up a lab in a separate schema, called `lab`, so it does not mix with your project's tables. It creates a table similar to `participacoes`, with 300 thousand rows and no index, and runs the same search before and after creating the index.
 
 **Without an index**, the plan shows a sequential scan:
 
@@ -96,7 +96,7 @@ drop schema lab cascade;
 
 ## // The project's indexes
 
-The file `example/sql/04-indices.sql` creates the indexes that make sense for the Study Group Finder:
+The file `docs/example/sql/04-indices.sql` creates the indexes that make sense for the Study Group Finder:
 
 ```sql
 create index idx_grupos_materia_id      on grupos (materia_id);
@@ -187,6 +187,6 @@ Answer: not necessarily. With a tiny table, reading everything directly is cheap
 
 ---
 
-**Next module:** `14-migrations.en.md`, the database is fast. Now, how to change its structure over time without losing data.
+**Next module:** `14-migrations.md`, the database is fast. Now, how to change its structure over time without losing data.
 
 `Study Material // Coffee & Code`

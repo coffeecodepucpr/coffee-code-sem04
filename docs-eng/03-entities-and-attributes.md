@@ -1,6 +1,6 @@
 # Module 03, Entities and Attributes
 
-🇧🇷 [Português](./03-entidades-e-atributos.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/03-entidades-e-atributos.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -46,7 +46,7 @@ If the answers are "yes", it is an entity. If not, it is an attribute. That is w
 ## // The project's attributes
 
 <div align="center">
-<img src="./assets/entidades-atributos.svg" alt="Four entities of the project, User, Subject, Group and Meeting, with their attributes" width="640">
+<img src="../docs/assets/entidades-atributos.svg" alt="Four entities of the project, User, Subject, Group and Meeting, with their attributes" width="640">
 </div>
 
 | Entity | Attributes | Identifier candidates |
@@ -130,6 +130,6 @@ Answer: it should not. The day of the week has a single piece of information (th
 
 ---
 
-**Next module:** `04-relacionamentos-e-cardinalidade.en.md`, the entities exist. Now, how they connect to each other.
+**Next module:** `04-relationships-and-cardinality.md`, the entities exist. Now, how they connect to each other.
 
 `Study Material // Coffee & Code`

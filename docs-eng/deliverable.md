@@ -1,10 +1,10 @@
 # Deliverable, Week 04
 
-🇧🇷 [Português](./entregavel.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/entregavel.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
-Use this file as the final checklist before considering Week 04 done. It gathers what is **required**; the extra challenges in `desafios.en.md` and Modules 13 to 15 of the veteran track are optional.
+Use this file as the final checklist before considering Week 04 done. It gathers what is **required**; the extra challenges in `challenges.md` and Modules 13 to 15 of the veteran track are optional.
 
 ## // What you should have in hand now
 
@@ -58,7 +58,7 @@ If both tests pass, your database is reproducible and your submission is on the 
 
 The weekly Coffee & Code meetings exist for this. "My foreign key gives an error when inserting, I already checked the order and the type" is much faster to solve than "my database doesn't work".
 
-If you want to go deeper than what was asked, see `desafios.en.md` and the veteran track, in Modules 13 to 15.
+If you want to go deeper than what was asked, see `challenges.md` and the veteran track, in Modules 13 to 15.
 
 ## // What comes in Week 05
 

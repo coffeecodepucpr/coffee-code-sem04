@@ -21,42 +21,42 @@ In Week 03 the screens got behavior: Login validates, the Dashboard renders and 
 
 Week 04 exists to give that data a real home: PostgreSQL, Supabase, ERD, normalization (1NF to 3NF) and SQL. By the end of the week the Study Group Finder has a well-designed relational database, active and with data inside — still without connecting the page to it, but with the model ready.
 
-> **About the language:** every `.md` file in this repository has an English version with the `.en.md` suffix. The diagrams, the code and the example project's table and column names stay in Portuguese, so they match the SQL scripts: `usuarios` (users), `materias` (subjects), `grupos` (groups), `participacoes` (memberships), `encontros` (meetings).
+> **About the language:** the English material lives in [`docs-eng/`](docs-eng/), with the same structure as [`docs/`](docs/) (Portuguese); the READMEs have an English version with the `.en.md` suffix. The diagrams, the code and the example project's table and column names stay in Portuguese, so they match the SQL scripts: `usuarios` (users), `materias` (subjects), `grupos` (groups), `participacoes` (memberships), `encontros` (meetings).
 
 ## Where to start
 
-👉 **[docs/00-comece-aqui.en.md](docs/00-comece-aqui.en.md)** — read this one first. It explains the week's path and what comes from Week 03.
+👉 **[docs-eng/00-start-here.md](docs-eng/00-start-here.md)** — read this one first. It explains the week's path and what comes from Week 03.
 
 Then follow the modules in order. Modules `01` to `12` make up the main track:
 
 | # | Module | About |
 |---|---|---|
-| 01 | [Why a relational database](docs/01-por-que-um-banco-relacional.en.md) | Persistence, table, row, column and key |
-| 02 | [PostgreSQL and Supabase](docs/02-postgresql-e-supabase.en.md) | Creating the project, the dashboard and the first query |
-| 03 | [Entities and attributes](docs/03-entidades-e-atributos.en.md) | Finding the entities and the attributes |
-| 04 | [Relationships and cardinality](docs/04-relacionamentos-e-cardinalidade.en.md) | 1:1, 1:N, N:N and crow's foot notation |
-| 05 | [The ER diagram](docs/05-o-diagrama-der.en.md) | Drawing the project's ERD |
-| 06 | [Normalization: anomalies and 1NF](docs/06-normalizacao-anomalias-e-1fn.en.md) | Anomalies and 1NF |
-| 07 | [Normalization: 2NF and 3NF](docs/07-normalizacao-2fn-e-3fn.en.md) | 2NF and 3NF |
-| 08 | [Data types and keys](docs/08-tipos-de-dados-e-chaves.en.md) | Types, keys and constraints |
-| 09 | [SQL: creating the tables](docs/09-sql-criando-as-tabelas.en.md) | `create table` and the project script |
-| 10 | [SQL: inserting and querying](docs/10-sql-inserindo-e-consultando.en.md) | `insert`, `select`, `update` and `delete` |
-| 11 | [SQL: join and aggregations](docs/11-sql-join-e-agregacoes.en.md) | `join`, `left join`, `count` and `group by` |
-| 12 | [Guided project](docs/12-projeto-guiado.en.md) | Building the database from start to finish |
+| 01 | [Why a relational database](docs-eng/01-why-a-relational-database.md) | Persistence, table, row, column and key |
+| 02 | [PostgreSQL and Supabase](docs-eng/02-postgresql-and-supabase.md) | Creating the project, the dashboard and the first query |
+| 03 | [Entities and attributes](docs-eng/03-entities-and-attributes.md) | Finding the entities and the attributes |
+| 04 | [Relationships and cardinality](docs-eng/04-relationships-and-cardinality.md) | 1:1, 1:N, N:N and crow's foot notation |
+| 05 | [The ER diagram](docs-eng/05-the-er-diagram.md) | Drawing the project's ERD |
+| 06 | [Normalization: anomalies and 1NF](docs-eng/06-normalization-anomalies-and-1nf.md) | Anomalies and 1NF |
+| 07 | [Normalization: 2NF and 3NF](docs-eng/07-normalization-2nf-and-3nf.md) | 2NF and 3NF |
+| 08 | [Data types and keys](docs-eng/08-data-types-and-keys.md) | Types, keys and constraints |
+| 09 | [SQL: creating the tables](docs-eng/09-sql-creating-the-tables.md) | `create table` and the project script |
+| 10 | [SQL: inserting and querying](docs-eng/10-sql-inserting-and-querying.md) | `insert`, `select`, `update` and `delete` |
+| 11 | [SQL: join and aggregations](docs-eng/11-sql-join-and-aggregations.md) | `join`, `left join`, `count` and `group by` |
+| 12 | [Guided project](docs-eng/12-guided-project.md) | Building the database from start to finish |
 
 Modules `13` to `15` are the **veteran track**, optional, to read afterwards:
 
 | # | Module | About |
 |---|---|---|
-| 13 | [Indexes and performance](docs/13-indices-e-desempenho.en.md) | Indexes and `explain analyze` |
-| 14 | [Migrations](docs/14-migrations.en.md) | Migrations with Alembic and Prisma |
-| 15 | [ORMs: Prisma and SQLAlchemy](docs/15-orms-prisma-e-sqlalchemy.en.md) | ORMs |
+| 13 | [Indexes and performance](docs-eng/13-indexes-and-performance.md) | Indexes and `explain analyze` |
+| 14 | [Migrations](docs-eng/14-migrations.md) | Migrations with Alembic and Prisma |
+| 15 | [ORMs: Prisma and SQLAlchemy](docs-eng/15-orms-prisma-and-sqlalchemy.md) | ORMs |
 
 And, to look up whenever you need:
 
-- 💻 [Runnable example](docs/example/README.en.md) — the project's SQL scripts and the veteran track models, for reference
-- 🎯 [Challenges](docs/desafios.en.md) — optional, to go beyond what is asked
-- ✅ [Deliverable](docs/entregavel.en.md) — final checklist before closing the week
+- 💻 [Runnable example](docs-eng/example/README.md) — the project's SQL scripts and the veteran track models, for reference
+- 🎯 [Challenges](docs-eng/challenges.md) — optional, to go beyond what is asked
+- ✅ [Deliverable](docs-eng/deliverable.md) — final checklist before closing the week
 
 ## The runnable example
 
@@ -66,7 +66,7 @@ The [`docs/example/`](docs/example/) folder has a reference implementation of th
 - `sqlalchemy/` — veteran track: the model in SQLAlchemy with migrations in Alembic (tested).
 - `prisma/` — veteran track: the same model in Prisma (**not tested** by the author).
 
-The details are in the [folder's README](docs/example/README.en.md).
+The details are in the [folder's README](docs-eng/example/README.md).
 
 It is **reference material, not an answer key**. Your project has its own domain — the example is there for you to see one possible solution when you get stuck, not to copy.
 
@@ -86,7 +86,7 @@ sql/                  ← new
 
 And an **active** PostgreSQL database on Supabase, with the tables created, RLS on and data inside. The database password cannot be in any versioned file.
 
-The complete checklist is in [docs/entregavel.en.md](docs/entregavel.en.md).
+The complete checklist is in [docs-eng/deliverable.md](docs-eng/deliverable.md).
 
 > **A correct model is worth more than a big database.** An ERD that solves the N:N well and a model without repetition, with few rows, are worth more this week than a database full of data in a single badly designed table.
 

@@ -1,6 +1,6 @@
 # Module 11, SQL: JOIN and Aggregations
 
-🇧🇷 [Português](./11-sql-join-e-agregacoes.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/11-sql-join-e-agregacoes.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -20,7 +20,7 @@ To show a Dashboard card, Week 03 used an object with everything together: group
 > It is the operation that combines rows from two tables when a condition is true. Almost always, the condition compares a foreign key with the primary key it points to.
 
 <div align="center">
-<img src="./assets/join-visual.svg" alt="The grupos and materias tables linked by materia_id, producing a result table with the group name and the subject name" width="640">
+<img src="../docs/assets/join-visual.svg" alt="The grupos and materias tables linked by materia_id, producing a result table with the group name and the subject name" width="640">
 </div>
 
 ```sql
@@ -253,6 +253,6 @@ Answer: nothing, the group disappears from the result. A regular `join` only ret
 
 ---
 
-**Next module:** `12-projeto-guiado.en.md`, the tools are complete. Time to put everything together and get the database active on Supabase.
+**Next module:** `12-guided-project.md`, the tools are complete. Time to put everything together and get the database active on Supabase.
 
 `Study Material // Coffee & Code`

@@ -17,4 +17,4 @@ Essas informações vão para a tabela de entregas do README.
 - [ ] Os arquivos têm nome em minúsculas, separado por hífen e com extensão (ex.: `historias-de-usuario.md`) · *File names are lowercase, hyphen-separated and have an extension*
 - [ ] O `README.md` da minha pasta tem o nome do projeto, o que ele é e o link do Figma (veja `entregas/README.md`) · *My folder's `README.md` has the project name, what it is and the Figma link (see `entregas/README.en.md`)*
 - [ ] Não enviei a senha do banco nem arquivo `.env` · *I did not send the database password or a `.env` file*
-- [ ] Conferi o checklist do `docs/entregavel.md` desta semana · *I checked this week's `docs/entregavel.en.md` checklist*
+- [ ] Conferi o checklist do `docs/entregavel.md` desta semana · *I checked this week's `docs-eng/deliverable.md` checklist*

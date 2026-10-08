@@ -1,6 +1,6 @@
 # Module 07, Normalization: 2NF and 3NF
 
-🇧🇷 [Português](./07-normalizacao-2fn-e-3fn.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/07-normalizacao-2fn-e-3fn.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -88,7 +88,7 @@ In the `grupos` table, `codigo_materia` does not depend directly on `grupo_id`: 
 The fix follows the same logic as 2NF: information that depends on another column goes into its own table.
 
 <div align="center">
-<img src="./assets/normalizacao-1fn-2fn-3fn.svg" alt="The single 1NF table splitting into three tables in 2NF and four tables in 3NF" width="640">
+<img src="../docs/assets/normalizacao-1fn-2fn-3fn.svg" alt="The single 1NF table splitting into three tables in 2NF and four tables in 3NF" width="640">
 </div>
 
 In the end, the project's model has four tables:
@@ -184,6 +184,6 @@ Answer: it is in 2NF, because the key has a single column and, therefore, no col
 
 ---
 
-**Next module:** `08-tipos-de-dados-e-chaves.en.md`, the design is normalized. Time to define each column's type and how the tables connect through keys.
+**Next module:** `08-data-types-and-keys.md`, the design is normalized. Time to define each column's type and how the tables connect through keys.
 
 `Study Material // Coffee & Code`

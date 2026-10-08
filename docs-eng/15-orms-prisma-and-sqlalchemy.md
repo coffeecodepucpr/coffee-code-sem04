@@ -1,6 +1,6 @@
 # Module 15, ORMs: Prisma and SQLAlchemy
 
-🇧🇷 [Português](./15-orms-prisma-e-sqlalchemy.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/15-orms-prisma-e-sqlalchemy.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -9,7 +9,7 @@
 ## // Before you start
 
 > **VETERAN TRACK**
-> This module is part of the veteran track: it comes after the essential content and is not needed for the week's deliverable. If you follow the main track, you can skip to `entregavel.en.md`.
+> This module is part of the veteran track: it comes after the essential content and is not needed for the week's deliverable. If you follow the main track, you can skip to `deliverable.md`.
 
 Up to here you talked to the database by writing SQL in the Supabase dashboard. A real application talks to it from code, in Python, TypeScript or another language. This module introduces the tool that builds that bridge, the ORM, and shows the same project model in two of them: SQLAlchemy and Prisma.
 
@@ -23,7 +23,7 @@ In code, data is objects: a `Grupo` with properties and methods. In the database
 > *Object-Relational Mapping* is a library that represents the database tables as classes in your code, the rows as objects, and translates operations on objects into SQL commands.
 
 <div align="center">
-<img src="./assets/orm-camadas.svg" alt="The layers between the code and the database: the ORM translates objects into SQL, which PostgreSQL runs" width="640">
+<img src="../docs/assets/orm-camadas.svg" alt="The layers between the code and the database: the ORM translates objects into SQL, which PostgreSQL runs" width="640">
 </div>
 
 The gains are real: the editor completes column names, typos show up earlier, and the relationships between tables become navigable properties (`ana.participacoes`). But the ORM does **not replace** SQL. It writes SQL for you, and understanding SQL, as you did in Modules 09 to 11, is what lets you check whether it wrote it right, and solve what it does not solve on its own.
@@ -62,7 +62,7 @@ class Grupo(Base):
 
 Compare it with the `create table` from Module 09: each line has its counterpart. `Mapped[str]` without `None` is equivalent to `not null`; `ForeignKey(...)` is equivalent to `references`; and `relationship(...)` is new, because it does not create any column: it only tells SQLAlchemy how to navigate between the tables.
 
-The complete model, with the five tables, is in `example/sqlalchemy/models.py`.
+The complete model, with the five tables, is in `docs/example/sqlalchemy/models.py`.
 
 ### > Querying
 
@@ -124,7 +124,7 @@ session.flush()          # sends the insert, and the database returns the genera
 session.rollback()       # undoes everything, the database stays as it was
 ```
 
-The file `example/sqlalchemy/consultas.py` gathers the three examples and can be run with the `DATABASE_URL` variable pointing to the test database (in the format `postgresql+psycopg://user:password@host:5432/database`).
+The file `docs/example/sqlalchemy/consultas.py` gathers the three examples and can be run with the `DATABASE_URL` variable pointing to the test database (in the format `postgresql+psycopg://user:password@host:5432/database`).
 
 ## // Prisma 7
 
@@ -173,7 +173,7 @@ model Grupo {
 }
 ```
 
-`@map` and `@@map` link the names in the code (`maxParticipantes`) to the database column names (`max_participantes`), and that is what lets you keep the naming conventions from Module 08. The complete model is in `example/prisma/prisma/schema.prisma`.
+`@map` and `@@map` link the names in the code (`maxParticipantes`) to the database column names (`max_participantes`), and that is what lets you keep the naming conventions from Module 08. The complete model is in `docs/example/prisma/prisma/schema.prisma`.
 
 One detail to check on your machine: Prisma usually creates automatic identifiers with `@default(autoincrement())`, which may generate a `serial` column, not the `generated always as identity` from this guide's SQL script. The practical effect for the project is the same, but the generated structure is not identical, and you can compare it with `\d grupos` in `psql`.
 
@@ -207,7 +207,7 @@ const ana = await prisma.usuario.findUnique({
 });
 ```
 
-`include` is the equivalent of `join`: it asks Prisma to bring, along with the object, the related records. The file `example/prisma/src/consultas.ts` gathers the examples.
+`include` is the equivalent of `join`: it asks Prisma to bring, along with the object, the related records. The file `docs/example/prisma/src/consultas.ts` gathers the examples.
 
 ## // The two side by side
 
@@ -254,7 +254,7 @@ The value travels as a parameter, separate from the SQL text, and is never inter
 
 ## // Guided practice
 
-1. In `example/sqlalchemy/`, point the `DATABASE_URL` variable to your test database and run `consultas.py`.
+1. In `docs/example/sqlalchemy/`, point the `DATABASE_URL` variable to your test database and run `consultas.py`.
 2. Compare the numbers in the result with the spots query from Module 11.
 3. Write, in `consultas.py` itself, an ORM query that returns a group's meetings (hint: use the `grupo.encontros` relationship).
 4. If you are going to use Prisma, set up `.env`, run `npx prisma generate` and run `src/consultas.ts`.
@@ -287,6 +287,6 @@ Answer: first, the ORM just writes the SQL for you, and to know whether it wrote
 
 ---
 
-**Next step:** `entregavel.en.md`, the final review of everything Week 04 asked for.
+**Next step:** `deliverable.md`, the final review of everything Week 04 asked for.
 
 `Study Material // Coffee & Code`

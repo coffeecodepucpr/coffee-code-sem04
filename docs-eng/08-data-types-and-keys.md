@@ -1,6 +1,6 @@
 # Module 08, Data Types and Keys
 
-🇧🇷 [Português](./08-tipos-de-dados-e-chaves.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/08-tipos-de-dados-e-chaves.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -59,7 +59,7 @@ The `participacoes` table uses a **composite primary key**, made of two columns.
 > It is the column that stores the identifier of a row in another table, and that the database forces to point to a row that really exists.
 
 <div align="center">
-<img src="./assets/pk-fk-ligacao.svg" alt="The materia_id column in the grupos table pointing to the primary key of the materias table" width="640">
+<img src="../docs/assets/pk-fk-ligacao.svg" alt="The materia_id column in the grupos table pointing to the primary key of the materias table" width="640">
 </div>
 
 In the declaration, the foreign key uses the word `references`:
@@ -125,7 +125,7 @@ These messages are the protection at work: they prevent, in the database, the pr
 - Each table's primary key is called `<table in singular>_id`, and the foreign key that points to it uses the same name (`materia_id` in `materias` and in `grupos`).
 
 > **ABOUT THE PORTUGUESE NAMES**
-> The tables and columns of the example project keep their Portuguese names, so they match the SQL scripts in `example/`: `usuarios` (users), `materias` (subjects), `grupos` (groups), `participacoes` (memberships), `encontros` (meetings).
+> The tables and columns of the example project keep their Portuguese names, so they match the SQL scripts in `docs/example/`: `usuarios` (users), `materias` (subjects), `grupos` (groups), `participacoes` (memberships), `encontros` (meetings).
 
 ## // The project's data dictionary
 
@@ -220,6 +220,6 @@ Answer: because the primary key is copied into the foreign keys of other tables 
 
 ---
 
-**Next module:** `09-sql-criando-as-tabelas.en.md`, the design is complete, with types and keys. Time to turn it into real tables.
+**Next module:** `09-sql-creating-the-tables.md`, the design is complete, with types and keys. Time to turn it into real tables.
 
 `Study Material // Coffee & Code`

@@ -1,6 +1,6 @@
 # Module 06, Normalization: Anomalies and 1NF
 
-🇧🇷 [Português](./06-normalizacao-anomalias-e-1fn.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/06-normalizacao-anomalias-e-1fn.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -11,7 +11,7 @@
 In Module 05 you finished the ERD. Before turning it into tables, there is a verification step: checking whether the design avoids repetition and consistency problems. This check is called **normalization**, and this is the first of two modules about it. Here you see what goes wrong in a badly designed table, and apply the first level of correction, 1NF.
 
 > **A NOTE ON THE NAMES**
-> In Portuguese, the normal forms are written 1FN, 2FN and 3FN (*Forma Normal*), which is why the file names in this repository use "fn". In English they are 1NF, 2NF and 3NF.
+> In Portuguese, the normal forms are written 1FN, 2FN and 3FN (*Forma Normal*), which is why the Portuguese file names (in `docs/`) use "fn". In English they are 1NF, 2NF and 3NF.
 
 ## // The problem: the "single spreadsheet"
 
@@ -33,7 +33,7 @@ At first glance it works. But everything that repeats here is a trap waiting to 
 > It is a problem that shows up when changing the data of a badly designed table, caused by repeated or mixed information. There are three classic types.
 
 <div align="center">
-<img src="./assets/anomalias-tabela-unica.svg" alt="The single spreadsheet with the repeated data highlighted and the three anomalies: update, deletion and insertion" width="640">
+<img src="../docs/assets/anomalias-tabela-unica.svg" alt="The single spreadsheet with the repeated data highlighted and the three anomalies: update, deletion and insertion" width="640">
 </div>
 
 **Update anomaly.** The code MAT101 appears in two rows. If the university changes the code of Cálculo I, both have to be changed, and forgetting one leaves the spreadsheet saying two different things.
@@ -150,6 +150,6 @@ Answer: it breaks the first rule, which requires a single value per cell, becaus
 
 ---
 
-**Next module:** `07-normalizacao-2fn-e-3fn.en.md`, 1NF solved the lists, but repetition remains. The next two levels take care of it.
+**Next module:** `07-normalization-2nf-and-3nf.md`, 1NF solved the lists, but repetition remains. The next two levels take care of it.
 
 `Study Material // Coffee & Code`

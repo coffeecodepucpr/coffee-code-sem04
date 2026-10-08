@@ -1,6 +1,6 @@
 # Módulo 09, SQL: Criando as Tabelas
 
-🇧🇷 Português · 🇺🇸 [English](./09-sql-criando-as-tabelas.en.md)
+🇧🇷 Português · 🇺🇸 [English](../docs-eng/09-sql-creating-the-tables.md)
 
 `SEM 04 // Modelagem de Dados`
 

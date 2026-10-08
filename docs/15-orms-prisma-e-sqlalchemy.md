@@ -1,6 +1,6 @@
 # Módulo 15, ORMs: Prisma e SQLAlchemy
 
-🇧🇷 Português · 🇺🇸 [English](./15-orms-prisma-e-sqlalchemy.en.md)
+🇧🇷 Português · 🇺🇸 [English](../docs-eng/15-orms-prisma-and-sqlalchemy.md)
 
 `SEM 04 // Modelagem de Dados`
 

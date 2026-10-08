@@ -1,6 +1,6 @@
 # Module 02, PostgreSQL and Supabase
 
-🇧🇷 [Português](./02-postgresql-e-supabase.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/02-postgresql-e-supabase.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -16,7 +16,7 @@ In Module 01 you saw the difference between DBMS, SQL and platform. Now you will
 > It is a platform that hosts a ready-to-use PostgreSQL database in the cloud and offers, around it, a visual dashboard and an API generated automatically from your tables.
 
 <div align="center">
-<img src="./assets/supabase-visao-geral.svg" alt="A Supabase project: the dashboard and the API accessing the same PostgreSQL database" width="640">
+<img src="../docs/assets/supabase-visao-geral.svg" alt="A Supabase project: the dashboard and the API accessing the same PostgreSQL database" width="640">
 </div>
 
 Each Supabase project has its own PostgreSQL. The dashboard is where you look at and edit data with clicks; the API is what, later on, lets an application talk to the database. This week you only use the dashboard and SQL.
@@ -148,6 +148,6 @@ Answer: the project was paused due to inactivity, which is the free plan's behav
 
 ---
 
-**Next module:** `03-entidades-e-atributos.en.md`, the environment is ready. Time to find out which tables the project really needs.
+**Next module:** `03-entities-and-attributes.md`, the environment is ready. Time to find out which tables the project really needs.
 
 `Study Material // Coffee & Code`

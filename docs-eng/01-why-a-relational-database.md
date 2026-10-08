@@ -1,6 +1,6 @@
 # Module 01, Why a Relational Database
 
-🇧🇷 [Português](./01-por-que-um-banco-relacional.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/01-por-que-um-banco-relacional.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -119,6 +119,6 @@ Answer: because each browser runs its own `script.js` and creates its own `grupo
 
 ---
 
-**Next module:** `02-postgresql-e-supabase.en.md`, with the vocabulary ready, it is time to create your database and run the first query.
+**Next module:** `02-postgresql-and-supabase.md`, with the vocabulary ready, it is time to create your database and run the first query.
 
 `Study Material // Coffee & Code`

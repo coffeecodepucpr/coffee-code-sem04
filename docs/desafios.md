@@ -1,6 +1,6 @@
 # Desafios, Semana 04
 
-🇧🇷 Português · 🇺🇸 [English](./desafios.en.md)
+🇧🇷 Português · 🇺🇸 [English](../docs-eng/challenges.md)
 
 Desafios opcionais, organizados pelos módulos da semana. Nenhum é obrigatório para a entrega básica; veja `entregavel.md` para o que é obrigatório. Use estes desafios se terminou os módulos principais e quer se aprofundar, ou se quer deixar o banco mais robusto.
 

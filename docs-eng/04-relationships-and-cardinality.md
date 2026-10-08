@@ -1,6 +1,6 @@
 # Module 04, Relationships and Cardinality
 
-🇧🇷 [Português](./04-relacionamentos-e-cardinalidade.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/04-relacionamentos-e-cardinalidade.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -61,7 +61,7 @@ This answer will become a concrete database rule in Module 08: the required refe
 To draw cardinalities, this guide uses **crow's foot** notation, very common in modeling tools. Each end of the relationship line has a symbol that states the minimum and maximum on that side:
 
 <div align="center">
-<img src="./assets/cardinalidade-pe-de-galinha.svg" alt="The four crow's foot symbols: exactly one, zero or one, one or many, zero or many" width="640">
+<img src="../docs/assets/cardinalidade-pe-de-galinha.svg" alt="The four crow's foot symbols: exactly one, zero or one, one or many, zero or many" width="640">
 </div>
 
 | Symbol at the end of the line | Means |
@@ -163,6 +163,6 @@ Answer: the table on the "many" side, that is, Group. Each group stores the iden
 
 ---
 
-**Next module:** `05-o-diagrama-der.en.md`, the entities and links are defined. Time to bring everything together in one drawing.
+**Next module:** `05-the-er-diagram.md`, the entities and links are defined. Time to bring everything together in one drawing.
 
 `Study Material // Coffee & Code`

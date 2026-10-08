@@ -1,6 +1,6 @@
 # Module 10, SQL: Inserting and Querying
 
-🇧🇷 [Português](./10-sql-inserindo-e-consultando.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/10-sql-inserindo-e-consultando.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -44,7 +44,7 @@ Each object in the array unfolds into rows in more than one table:
 | `participantes: 5` | **Disappears**: becomes five rows in `participacoes` |
 | `horario: "encontros às terças"` | One row in `encontros` (day of the week, time and location) |
 
-The file `example/sql/02-seed.sql` already does this conversion for the example's six groups. In it, the subject ids are written directly (1, 2, 3...), because the database was just created and the order is known. In a database with real data, the safest approach is to look up the id with a subquery, instead of typing it by hand:
+The file `docs/example/sql/02-seed.sql` already does this conversion for the example's six groups. In it, the subject ids are written directly (1, 2, 3...), because the database was just created and the order is known. In a database with real data, the safest approach is to look up the id with a subquery, instead of typing it by hand:
 
 ```sql
 insert into grupos (nome_grupo, materia_id, max_participantes)
@@ -191,7 +191,7 @@ Only one group changes, and the command reports `UPDATE 1`, confirming that a si
 
 ## // Guided practice
 
-1. Run `01-schema.sql` and then `02-seed.sql` (found in `example/sql/`) in the SQL Editor.
+1. Run `01-schema.sql` and then `02-seed.sql` (found in `docs/example/sql/`) in the SQL Editor.
 2. Run `select * from materias;` and check the six subjects.
 3. Write a `select` that returns only the groups with a limit of 6 participants or more, in alphabetical order.
 4. Write a `select` with `ilike` that finds the groups whose name contains "prática".
@@ -225,6 +225,6 @@ Answer: all rows in the `participacoes` table are deleted, that is, everyone "le
 
 ---
 
-**Next module:** `11-sql-join-e-agregacoes.en.md`, the data is in the database and simple queries work. What is left is combining tables and counting results.
+**Next module:** `11-sql-join-and-aggregations.md`, the data is in the database and simple queries work. What is left is combining tables and counting results.
 
 `Study Material // Coffee & Code`

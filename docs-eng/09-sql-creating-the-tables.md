@@ -1,6 +1,6 @@
 # Module 09, SQL: Creating the Tables
 
-🇧🇷 [Português](./09-sql-criando-as-tabelas.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/09-sql-criando-as-tabelas.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -49,7 +49,7 @@ The command reads almost like a sentence:
 In a table with a foreign key, the column gets `references`:
 
 <div align="center">
-<img src="./assets/der-para-ddl.svg" alt="The ERD of materias and grupos next to the create table command for the grupos table, with each part numbered" width="640">
+<img src="../docs/assets/der-para-ddl.svg" alt="The ERD of materias and grupos next to the create table command for the grupos table, with each part numbered" width="640">
 </div>
 
 ## // Order matters: the referenced table comes first
@@ -70,7 +70,7 @@ The rule is to create first the tables that nobody references, and then the ones
 
 ## // The project's complete script
 
-This is the script that creates the whole database. It is also in the file `example/sql/01-schema.sql`:
+This is the script that creates the whole database. It is also in the file `docs/example/sql/01-schema.sql`:
 
 ```sql
 create table usuarios (
@@ -205,6 +205,6 @@ Answer: because `participacoes` has two foreign keys, one to `usuarios` and anot
 
 ---
 
-**Next module:** `10-sql-inserindo-e-consultando.en.md`, the tables exist, but they are empty. Time to add data and run the first queries.
+**Next module:** `10-sql-inserting-and-querying.md`, the tables exist, but they are empty. Time to add data and run the first queries.
 
 `Study Material // Coffee & Code`

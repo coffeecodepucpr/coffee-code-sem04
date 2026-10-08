@@ -1,6 +1,6 @@
 # Module 05, The ER Diagram
 
-🇧🇷 [Português](./05-o-diagrama-der.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/05-o-diagrama-der.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -11,7 +11,7 @@
 In Modules 03 and 04 you found the project's entities, attributes and relationships, and wrote everything down in text tables. This module brings it all together in a single drawing, the ERD, which is the central modeling document and the starting point for creating the database.
 
 > **A NOTE ON THE NAME**
-> In Portuguese this diagram is called DER (*Diagrama Entidade-Relacionamento*), which is why the file names in this repository use "der". In English it is the ERD (Entity-Relationship Diagram).
+> In Portuguese this diagram is called DER (*Diagrama Entidade-Relacionamento*), which is why the Portuguese material (in `docs/`) and the suggested ERD file name, `docs/der.png`, use "der". In English it is the ERD (Entity-Relationship Diagram).
 
 ## // The problem: text does not show the structure
 
@@ -39,7 +39,7 @@ The **foreign key** (FK) is the column that stores the identifier of another tab
 ## // The Study Group Finder ERD
 
 <div align="center">
-<img src="./assets/der-buscador-grupos.svg" alt="The project's ERD with five tables: usuarios, participacoes, grupos, materias and encontros" width="640">
+<img src="../docs/assets/der-buscador-grupos.svg" alt="The project's ERD with five tables: usuarios, participacoes, grupos, materias and encontros" width="640">
 </div>
 
 To check whether the drawing is right, read each relationship line as a sentence, in both directions:
@@ -127,6 +127,6 @@ Answer: five tables (usuarios, materias, grupos, participacoes and encontros). M
 
 ---
 
-**Next module:** `06-normalizacao-anomalias-e-1fn.en.md`, the ERD is drawn. Before creating tables, it is worth testing whether the design avoids repetition.
+**Next module:** `06-normalization-anomalies-and-1nf.md`, the ERD is drawn. Before creating tables, it is worth testing whether the design avoids repetition.
 
 `Study Material // Coffee & Code`

@@ -1,8 +1,8 @@
 # Challenges, Week 04
 
-🇧🇷 [Português](./desafios.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/desafios.md) · 🇺🇸 English
 
-Optional challenges, organized by the week's modules. None of them is required for the basic submission; see `entregavel.en.md` for what is required. Use these challenges if you finished the main modules and want to go deeper, or if you want to make the database more robust.
+Optional challenges, organized by the week's modules. None of them is required for the basic submission; see `deliverable.md` for what is required. Use these challenges if you finished the main modules and want to go deeper, or if you want to make the database more robust.
 
 ---
 

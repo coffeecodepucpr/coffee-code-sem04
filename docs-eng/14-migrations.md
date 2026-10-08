@@ -1,6 +1,6 @@
 # Module 14, Migrations
 
-🇧🇷 [Português](./14-migrations.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/14-migrations.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -9,7 +9,7 @@
 ## // Before you start
 
 > **VETERAN TRACK**
-> This module is part of the veteran track: it comes after the essential content and is not needed for the week's deliverable. If you follow the main track, you can skip to `entregavel.en.md`.
+> This module is part of the veteran track: it comes after the essential content and is not needed for the week's deliverable. If you follow the main track, you can skip to `deliverable.md`.
 
 In Module 09 you created the database by running a script. That works once. But projects change: tomorrow someone will want a `descricao` (description) column in the groups, and the database already has data that cannot be deleted. This module teaches you how to change the database structure in a controlled, versioned and reversible way.
 
@@ -27,7 +27,7 @@ In Module 09 you created the database by running a script. That works once. But 
 > It is a file, kept in the repository, that describes a change to the database schema: how to apply it (`upgrade`) and how to undo it (`downgrade`). Each migration has a version number, and together they form the history of how the database reached its current state.
 
 <div align="center">
-<img src="./assets/migrations-fluxo.svg" alt="The flow of a migration: change the model, generate the file, version it in Git, apply it and have the database updated" width="640">
+<img src="../docs/assets/migrations-fluxo.svg" alt="The flow of a migration: change the model, generate the file, version it in Git, apply it and have the database updated" width="640">
 </div>
 
 The database itself keeps track of which version it is at, in a control table (`alembic_version` in Alembic, `_prisma_migrations` in Prisma). When applying migrations, the tool checks that table and runs only the ones still missing.
@@ -49,7 +49,7 @@ Both run the same cycle: you change the model, the tool compares the model with 
 
 ## // Alembic, in practice
 
-The commands below were run against a test PostgreSQL. The files are in `example/sqlalchemy/`.
+The commands below were run against a test PostgreSQL. The files are in `docs/example/sqlalchemy/`.
 
 ### > 1. Setup (once)
 
@@ -76,7 +76,7 @@ Detected added index 'idx_grupos_materia_id' on '('materia_id',)'
 Generating alembic/versions/93fcab46a778_cria_as_tabelas_iniciais.py ... done
 ```
 
-(The message "cria as tabelas iniciais" means "creates the initial tables"; it is kept in Portuguese to match the file in `example/`.)
+(The message "cria as tabelas iniciais" means "creates the initial tables"; it is kept in Portuguese to match the file in `docs/example/`.)
 
 The generated file has two functions, `upgrade` (creates the tables) and `downgrade` (deletes them). To apply it:
 
@@ -204,7 +204,7 @@ Each change is a new file, which goes into Git along with the model change, and 
 ## // Guided practice
 
 1. Create a test database (local or a second Supabase project) and keep the URL in `.env`.
-2. In `example/sqlalchemy/`, run `alembic upgrade head` and check the five tables.
+2. In `docs/example/sqlalchemy/`, run `alembic upgrade head` and check the five tables.
 3. Add `descricao` to `Grupo`, generate the second migration and apply it.
 4. Run `alembic history` and `alembic current`, and write down the two versions.
 5. Run `alembic downgrade -1` and check that the column disappeared and the group data remains.
@@ -238,6 +238,6 @@ Answer: no. The 0002 file has already been applied to a database, and editing it
 
 ---
 
-**Next module:** `15-orms-prisma-e-sqlalchemy.en.md`, the database history is under control. What is left is seeing how to use the database from code.
+**Next module:** `15-orms-prisma-and-sqlalchemy.md`, the database history is under control. What is left is seeing how to use the database from code.
 
 `Study Material // Coffee & Code`

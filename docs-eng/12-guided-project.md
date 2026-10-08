@@ -1,6 +1,6 @@
 # Module 12, Guided Project: The Study Group Finder Database
 
-🇧🇷 [Português](./12-projeto-guiado.md) · 🇺🇸 English
+🇧🇷 [Português](../docs/12-projeto-guiado.md) · 🇺🇸 English
 
 `WEEK 04 // Data Modeling`
 
@@ -82,7 +82,7 @@ If you followed Modules 13 to 15, the database can now take three more things: t
 
 ## // Applying it to the week's project
 
-This is the application: there is no separate activity. At the end of this module, your database should pass the checklist in `entregavel.en.md`.
+This is the application: there is no separate activity. At the end of this module, your database should pass the checklist in `deliverable.md`.
 
 ## // Checkpoint
 
@@ -99,6 +99,6 @@ Answer: no, it means the constraints are working. The `nome` column in `materias
 
 ---
 
-**Next module:** `13-indices-e-desempenho.en.md` for the veteran track, or `entregavel.en.md` for the final review if you follow the main track.
+**Next module:** `13-indexes-and-performance.md` for the veteran track, or `deliverable.md` for the final review if you follow the main track.
 
 `Study Material // Coffee & Code`

@@ -1,6 +1,6 @@
 # Módulo 10, SQL: Inserindo e Consultando
 
-🇧🇷 Português · 🇺🇸 [English](./10-sql-inserindo-e-consultando.en.md)
+🇧🇷 Português · 🇺🇸 [English](../docs-eng/10-sql-inserting-and-querying.md)
 
 `SEM 04 // Modelagem de Dados`
 
