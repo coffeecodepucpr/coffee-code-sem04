@@ -1,6 +1,6 @@
 # Módulo 00, Comece Aqui
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/00-start-here.md)
+Português · [English](../docs-eng/00-start-here.md)
 
 `SEM 04 // Modelagem de Dados`
 

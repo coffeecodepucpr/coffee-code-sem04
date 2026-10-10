@@ -1,13 +1,13 @@
-# Submissions — Week 04
+# Submissions | Week 04
 
-🇧🇷 [Português](README.md) · 🇺🇸 English
+[Português](README.md) · English
 
 This is where the submissions from people who did Week 04 live. The list with each person's project is in the [main README](../README.en.md#class-submissions).
 
 ## How to submit
 
 1. **Fork** this repository (the *Fork* button, in the top right corner).
-2. In your fork, create the folder `entregas/First Last/` — with your first and last name.
+2. In your fork, create the folder `entregas/First Last/`, with your first and last name.
 3. Put your files inside it, following the structure below.
 4. Commit and push to your fork.
 5. Open a **Pull Request** to this repository and fill in the template that shows up.

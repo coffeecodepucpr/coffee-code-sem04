@@ -1,6 +1,6 @@
 # Runnable examples, Week 04
 
-🇧🇷 [Português](../../docs/example/README.md) · 🇺🇸 English
+[Português](../../docs/example/README.md) · English
 
 The runnable files for this week live in [`docs/example/`](../../docs/example/); this page is the English guide to them. It is a reference, not a required answer key: your project needs to apply the same concepts, not be identical to this one.
 

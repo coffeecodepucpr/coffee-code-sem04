@@ -1,6 +1,6 @@
 # Exemplos executáveis, Semana 04
 
-🇧🇷 Português · 🇺🇸 [English](../../docs-eng/example/README.md)
+Português · [English](../../docs-eng/example/README.md)
 
 Esta pasta reúne tudo que pode ser executado nesta semana. É referência, e não gabarito obrigatório: o seu projeto precisa aplicar os mesmos conceitos, não ser igual a este.
 

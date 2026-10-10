@@ -1,6 +1,6 @@
 # Módulo 08, Tipos de Dados e Chaves
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/08-data-types-and-keys.md)
+Português · [English](../docs-eng/08-data-types-and-keys.md)
 
 `SEM 04 // Modelagem de Dados`
 

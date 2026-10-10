@@ -1,6 +1,6 @@
 # Module 05, The ER Diagram
 
-🇧🇷 [Português](../docs/05-o-diagrama-der.md) · 🇺🇸 English
+[Português](../docs/05-o-diagrama-der.md) · English
 
 `WEEK 04 // Data Modeling`
 

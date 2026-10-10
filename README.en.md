@@ -1,12 +1,12 @@
-# ☕ Coffee & Code — WEEK 04 | Data Modeling
+# Coffee & Code | WEEK 04 | Data Modeling
 
-🇧🇷 [Português](README.md) · 🇺🇸 English
+[Português](README.md) · English
 
 ```text
 > module: sem-04
 > topic: data modeling
 > status: online
-> coffee loaded ✓
+> coffee loaded
 ```
 
 Material for **Week 04** of the Coffee & Code track, a technology club founded by Software Engineering students at PUCPR and open to anyone who wants to learn by building.
@@ -14,13 +14,13 @@ Material for **Week 04** of the Coffee & Code track, a technology club founded b
 
 In Week 03 the screens got behavior: Login validates, the Dashboard renders and filters the cards, the Profile reacts without reloading the page. But try this: leave a group and reload the page. The group is back. The data lives in arrays inside `script.js` and disappears on every reload.
 
-Week 04 exists to give that data a real home: PostgreSQL, Supabase, ERD, normalization (1NF to 3NF) and SQL. By the end of the week the Study Group Finder has a well-designed relational database, active and with data inside — still without connecting the page to it, but with the model ready.
+Week 04 exists to give that data a real home: PostgreSQL, Supabase, ERD, normalization (1NF to 3NF) and SQL. By the end of the week the Study Group Finder has a well-designed relational database, active and with data inside, still without connecting the page to it, but with the model ready.
 
 > **About the language:** the English material lives in [`docs-eng/`](docs-eng/), with the same structure as [`docs/`](docs/) (Portuguese); the READMEs have an English version with the `.en.md` suffix. The diagrams, the code and the example project's table and column names stay in Portuguese, so they match the SQL scripts: `usuarios` (users), `materias` (subjects), `grupos` (groups), `participacoes` (memberships), `encontros` (meetings).
 
 ## Where to start
 
-👉 **[docs-eng/00-start-here.md](docs-eng/00-start-here.md)** — read this one first. It explains the week's path and what comes from Week 03.
+**[docs-eng/00-start-here.md](docs-eng/00-start-here.md)**: read this one first. It explains the week's path and what comes from Week 03.
 
 Then follow the modules in order. Modules `01` to `12` make up the main track:
 
@@ -49,21 +49,21 @@ Modules `13` to `15` are the **veteran track**, optional, to read afterwards:
 
 And, to look up whenever you need:
 
-- 💻 [Runnable example](docs-eng/example/README.md) — the project's SQL scripts and the veteran track models, for reference
-- 🎯 [Challenges](docs-eng/challenges.md) — optional, to go beyond what is asked
-- ✅ [Deliverable](docs-eng/deliverable.md) — final checklist before closing the week
+- [Runnable example](docs-eng/example/README.md): the project's SQL scripts and the veteran track models, for reference
+- [Challenges](docs-eng/challenges.md): optional, to go beyond what is asked
+- [Deliverable](docs-eng/deliverable.md): final checklist before closing the week
 
 ## The runnable example
 
 The [`docs/example/`](docs/example/) folder has a reference implementation of the Study Group Finder database:
 
-- `sql/` — the creation, data and query scripts, tested on PostgreSQL 16. Run them in order, in the Supabase SQL Editor.
-- `sqlalchemy/` — veteran track: the model in SQLAlchemy with migrations in Alembic (tested).
-- `prisma/` — veteran track: the same model in Prisma (**not tested** by the author).
+- `sql/`: the creation, data and query scripts, tested on PostgreSQL 16. Run them in order, in the Supabase SQL Editor.
+- `sqlalchemy/` (veteran track): the model in SQLAlchemy with migrations in Alembic (tested).
+- `prisma/` (veteran track): the same model in Prisma (**not tested** by the author).
 
 The details are in the [folder's README](docs-eng/example/README.md).
 
-It is **reference material, not an answer key**. Your project has its own domain — the example is there for you to see one possible solution when you get stuck, not to copy.
+It is **reference material, not an answer key**. Your project has its own domain; the example is there for you to see one possible solution when you get stuck, not to copy.
 
 ## The deliverable
 
@@ -95,16 +95,16 @@ The web page keeps using the mock data from Week 03: connecting the front end to
 
 ## Ongoing project
 
-All modules use the same fictional project from previous weeks: the **Study Group Finder** (*Buscador de Grupos de Estudo*), now with its data in a relational database. If you have your own project, each module's reasoning applies the same way — just change the name.
+All modules use the same fictional project from previous weeks: the **Study Group Finder** (*Buscador de Grupos de Estudo*), now with its data in a relational database. If you have your own project, each module's reasoning applies the same way, just change the name.
 
 ## How it works
 
 Coffee & Code is **100% online**. Each module was written to be self-contained: you study at your own pace, can move ahead faster, go back to previous weeks and look up the material while working on your project.
 
-The weekly meetings, also online, exist to answer questions, review concepts, code together and show what you produced — **not to give lectures**:
+The weekly meetings, also online, exist to answer questions, review concepts, code together and show what you produced, **not to give lectures**:
 
-- 🗓️ **Wednesday** — 8:00 pm to 9:30 pm
-- 🗓️ **Saturday** — 10:00 am to 11:30 am
+- **Wednesday**: 8:00 pm to 9:30 pm
+- **Saturday**: 10:00 am to 11:30 am
 
 Both cover the same content. Pick whichever fits your week best, and you don't need to stay on the call the whole time.
 
@@ -120,15 +120,15 @@ All diagrams used in the modules are in [`docs/assets/`](docs/assets/), in edita
 
 ## Previous weeks
 
-- [WEEK 01 — Kickoff & Design System](https://github.com/coffeecodepucpr/coffee-code-sem01)
-- [WEEK 02 — Web Interface (Part 1: Layout)](https://github.com/coffeecodepucpr/coffee-code-sem02)
-- [WEEK 03 — Web Interface (Part 2: Dynamic)](https://github.com/coffeecodepucpr/coffee-code-sem03)
+- [WEEK 01: Kickoff & Design System](https://github.com/coffeecodepucpr/coffee-code-sem01)
+- [WEEK 02: Web Interface (Part 1: Layout)](https://github.com/coffeecodepucpr/coffee-code-sem02)
+- [WEEK 03: Web Interface (Part 2: Dynamic)](https://github.com/coffeecodepucpr/coffee-code-sem03)
 
 Full track and upcoming weeks: [Coffee & Code profile](https://github.com/coffeecodepucpr)
 
 ---
 
 ```text
-HTTP 418 — I'm a teapot
+HTTP 418: I'm a teapot
 > ready to code
 ```

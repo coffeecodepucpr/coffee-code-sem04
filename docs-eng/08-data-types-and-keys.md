@@ -1,6 +1,6 @@
 # Module 08, Data Types and Keys
 
-🇧🇷 [Português](../docs/08-tipos-de-dados-e-chaves.md) · 🇺🇸 English
+[Português](../docs/08-tipos-de-dados-e-chaves.md) · English
 
 `WEEK 04 // Data Modeling`
 

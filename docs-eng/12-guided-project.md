@@ -1,6 +1,6 @@
 # Module 12, Guided Project: The Study Group Finder Database
 
-🇧🇷 [Português](../docs/12-projeto-guiado.md) · 🇺🇸 English
+[Português](../docs/12-projeto-guiado.md) · English
 
 `WEEK 04 // Data Modeling`
 

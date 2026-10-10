@@ -1,6 +1,6 @@
 # Módulo 13, Índices e Desempenho
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/13-indexes-and-performance.md)
+Português · [English](../docs-eng/13-indexes-and-performance.md)
 
 `SEM 04 // Modelagem de Dados`
 

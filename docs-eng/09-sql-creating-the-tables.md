@@ -1,6 +1,6 @@
 # Module 09, SQL: Creating the Tables
 
-🇧🇷 [Português](../docs/09-sql-criando-as-tabelas.md) · 🇺🇸 English
+[Português](../docs/09-sql-criando-as-tabelas.md) · English
 
 `WEEK 04 // Data Modeling`
 

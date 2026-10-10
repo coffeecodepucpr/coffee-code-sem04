@@ -1,6 +1,6 @@
 # Module 03, Entities and Attributes
 
-🇧🇷 [Português](../docs/03-entidades-e-atributos.md) · 🇺🇸 English
+[Português](../docs/03-entidades-e-atributos.md) · English
 
 `WEEK 04 // Data Modeling`
 

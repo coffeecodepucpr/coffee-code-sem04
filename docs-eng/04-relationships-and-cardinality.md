@@ -1,6 +1,6 @@
 # Module 04, Relationships and Cardinality
 
-🇧🇷 [Português](../docs/04-relacionamentos-e-cardinalidade.md) · 🇺🇸 English
+[Português](../docs/04-relacionamentos-e-cardinalidade.md) · English
 
 `WEEK 04 // Data Modeling`
 

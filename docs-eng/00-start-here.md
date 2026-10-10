@@ -1,6 +1,6 @@
 # Module 00, Start Here
 
-🇧🇷 [Português](../docs/00-comece-aqui.md) · 🇺🇸 English
+[Português](../docs/00-comece-aqui.md) · English
 
 `WEEK 04 // Data Modeling`
 

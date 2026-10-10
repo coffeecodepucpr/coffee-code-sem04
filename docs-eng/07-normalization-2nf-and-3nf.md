@@ -1,6 +1,6 @@
 # Module 07, Normalization: 2NF and 3NF
 
-🇧🇷 [Português](../docs/07-normalizacao-2fn-e-3fn.md) · 🇺🇸 English
+[Português](../docs/07-normalizacao-2fn-e-3fn.md) · English
 
 `WEEK 04 // Data Modeling`
 

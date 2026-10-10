@@ -1,6 +1,6 @@
 # Module 01, Why a Relational Database
 
-🇧🇷 [Português](../docs/01-por-que-um-banco-relacional.md) · 🇺🇸 English
+[Português](../docs/01-por-que-um-banco-relacional.md) · English
 
 `WEEK 04 // Data Modeling`
 

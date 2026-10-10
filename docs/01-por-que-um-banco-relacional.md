@@ -1,6 +1,6 @@
 # Módulo 01, Por que um Banco Relacional
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/01-why-a-relational-database.md)
+Português · [English](../docs-eng/01-why-a-relational-database.md)
 
 `SEM 04 // Modelagem de Dados`
 

@@ -1,6 +1,6 @@
 # Module 15, ORMs: Prisma and SQLAlchemy
 
-🇧🇷 [Português](../docs/15-orms-prisma-e-sqlalchemy.md) · 🇺🇸 English
+[Português](../docs/15-orms-prisma-e-sqlalchemy.md) · English
 
 `WEEK 04 // Data Modeling`
 

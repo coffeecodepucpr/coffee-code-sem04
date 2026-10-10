@@ -1,6 +1,6 @@
 # Módulo 04, Relacionamentos e Cardinalidade
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/04-relationships-and-cardinality.md)
+Português · [English](../docs-eng/04-relationships-and-cardinality.md)
 
 `SEM 04 // Modelagem de Dados`
 

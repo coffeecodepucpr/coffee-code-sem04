@@ -1,6 +1,6 @@
 # Módulo 03, Entidades e Atributos
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/03-entities-and-attributes.md)
+Português · [English](../docs-eng/03-entities-and-attributes.md)
 
 `SEM 04 // Modelagem de Dados`
 

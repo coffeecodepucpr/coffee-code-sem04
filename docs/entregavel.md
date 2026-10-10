@@ -1,6 +1,6 @@
 # Entregável, Semana 04
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/deliverable.md)
+Português · [English](../docs-eng/deliverable.md)
 
 `SEM 04 // Modelagem de Dados`
 

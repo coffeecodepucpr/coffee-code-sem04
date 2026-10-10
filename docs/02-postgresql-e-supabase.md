@@ -1,6 +1,6 @@
 # Módulo 02, PostgreSQL e Supabase
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/02-postgresql-and-supabase.md)
+Português · [English](../docs-eng/02-postgresql-and-supabase.md)
 
 `SEM 04 // Modelagem de Dados`
 

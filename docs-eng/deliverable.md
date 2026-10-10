@@ -1,6 +1,6 @@
 # Deliverable, Week 04
 
-🇧🇷 [Português](../docs/entregavel.md) · 🇺🇸 English
+[Português](../docs/entregavel.md) · English
 
 `WEEK 04 // Data Modeling`
 

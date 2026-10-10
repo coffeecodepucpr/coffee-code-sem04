@@ -1,6 +1,6 @@
 # Module 11, SQL: JOIN and Aggregations
 
-🇧🇷 [Português](../docs/11-sql-join-e-agregacoes.md) · 🇺🇸 English
+[Português](../docs/11-sql-join-e-agregacoes.md) · English
 
 `WEEK 04 // Data Modeling`
 

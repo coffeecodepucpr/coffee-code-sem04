@@ -1,6 +1,6 @@
 # Módulo 06, Normalização: Anomalias e 1FN
 
-🇧🇷 Português · 🇺🇸 [English](../docs-eng/06-normalization-anomalies-and-1nf.md)
+Português · [English](../docs-eng/06-normalization-anomalies-and-1nf.md)
 
 `SEM 04 // Modelagem de Dados`
 

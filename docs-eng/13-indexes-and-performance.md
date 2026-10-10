@@ -1,6 +1,6 @@
 # Module 13, Indexes and Performance
 
-🇧🇷 [Português](../docs/13-indices-e-desempenho.md) · 🇺🇸 English
+[Português](../docs/13-indices-e-desempenho.md) · English
 
 `WEEK 04 // Data Modeling`
 

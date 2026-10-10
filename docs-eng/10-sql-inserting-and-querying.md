@@ -1,6 +1,6 @@
 # Module 10, SQL: Inserting and Querying
 
-🇧🇷 [Português](../docs/10-sql-inserindo-e-consultando.md) · 🇺🇸 English
+[Português](../docs/10-sql-inserindo-e-consultando.md) · English
 
 `WEEK 04 // Data Modeling`
 

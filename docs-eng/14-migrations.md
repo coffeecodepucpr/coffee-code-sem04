@@ -1,6 +1,6 @@
 # Module 14, Migrations
 
-🇧🇷 [Português](../docs/14-migrations.md) · 🇺🇸 English
+[Português](../docs/14-migrations.md) · English
 
 `WEEK 04 // Data Modeling`
 

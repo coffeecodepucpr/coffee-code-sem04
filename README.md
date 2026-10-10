@@ -1,12 +1,12 @@
-# ☕ Coffee & Code — SEM 04 | Modelagem de Dados
+# Coffee & Code | SEM 04 | Modelagem de Dados
 
-🇧🇷 Português · 🇺🇸 [English](README.en.md)
+Português · [English](README.en.md)
 
 ```text
 > module: sem-04
 > tema: modelagem de dados
 > status: online
-> coffee loaded ✓
+> coffee loaded
 ```
 
 Material da **Semana 04** da trilha do Coffee & Code, clube de tecnologia fundado por estudantes de Engenharia de Software da PUCPR e aberto a todos que querem aprender construindo.
@@ -14,13 +14,13 @@ Material da **Semana 04** da trilha do Coffee & Code, clube de tecnologia fundad
 
 Na Semana 03 as telas ganharam comportamento: o Login valida, o Dashboard renderiza e filtra os cards, o Perfil reage sem recarregar a página. Mas faça um teste: saia de um grupo e recarregue a página. O grupo está de volta. Os dados moram em arrays dentro do `script.js` e somem a cada recarregamento.
 
-A Semana 04 existe para dar um lugar de verdade a esses dados: PostgreSQL, Supabase, DER, normalização (1FN a 3FN) e SQL. No fim da semana o Buscador de Grupos de Estudo tem um banco relacional bem desenhado, ativo e com dados dentro — ainda sem ligar a página a ele, mas com o modelo pronto.
+A Semana 04 existe para dar um lugar de verdade a esses dados: PostgreSQL, Supabase, DER, normalização (1FN a 3FN) e SQL. No fim da semana o Buscador de Grupos de Estudo tem um banco relacional bem desenhado, ativo e com dados dentro, ainda sem ligar a página a ele, mas com o modelo pronto.
 
 > **Sobre o idioma:** o material em inglês fica em [`docs-eng/`](docs-eng/), com a mesma estrutura de [`docs/`](docs/); os READMEs têm versão em inglês com o sufixo `.en.md`.
 
 ## Por onde começar
 
-👉 **[docs/00-comece-aqui.md](docs/00-comece-aqui.md)** — leia este primeiro. Ele explica o caminho da semana e o que vem da Semana 03.
+**[docs/00-comece-aqui.md](docs/00-comece-aqui.md)**: leia este primeiro. Ele explica o caminho da semana e o que vem da Semana 03.
 
 Depois, siga os módulos na ordem. Os módulos `01` a `12` formam a trilha principal:
 
@@ -49,21 +49,21 @@ Os módulos `13` a `15` são a **trilha veterano**, opcional, para ler depois:
 
 E, para consultar quando precisar:
 
-- 💻 [Exemplo executável](docs/example/) — os scripts SQL do projeto e os modelos da trilha veterano, para consulta
-- 🎯 [Desafios](docs/desafios.md) — opcionais, para ir além do pedido
-- ✅ [Entregável](docs/entregavel.md) — checklist final antes de fechar a semana
+- [Exemplo executável](docs/example/): os scripts SQL do projeto e os modelos da trilha veterano, para consulta
+- [Desafios](docs/desafios.md): opcionais, para ir além do pedido
+- [Entregável](docs/entregavel.md): checklist final antes de fechar a semana
 
 ## O exemplo executável
 
 A pasta [`docs/example/`](docs/example/) tem uma implementação de referência do banco do Buscador de Grupos de Estudo:
 
-- `sql/` — os scripts de criação, dados e consultas, testados em um PostgreSQL 16. Rode na ordem, no SQL Editor do Supabase.
-- `sqlalchemy/` — trilha veterano: o modelo em SQLAlchemy com migrations em Alembic (testado).
-- `prisma/` — trilha veterano: o mesmo modelo em Prisma (**não testado** pelo autor).
+- `sql/`: os scripts de criação, dados e consultas, testados em um PostgreSQL 16. Rode na ordem, no SQL Editor do Supabase.
+- `sqlalchemy/` (trilha veterano): o modelo em SQLAlchemy com migrations em Alembic (testado).
+- `prisma/` (trilha veterano): o mesmo modelo em Prisma (**não testado** pelo autor).
 
 Os detalhes estão no [README da pasta](docs/example/README.md).
 
-É material de **consulta, não gabarito**. O seu projeto tem o seu próprio domínio — o exemplo serve para você ver uma solução possível quando travar, não para copiar.
+É material de **consulta, não gabarito**. O seu projeto tem o seu próprio domínio: o exemplo serve para você ver uma solução possível quando travar, não para copiar.
 
 ## O entregável
 
@@ -95,16 +95,16 @@ A página web continua usando os dados mock da Semana 03: ligar o front-end ao b
 
 ## Projeto contínuo
 
-Todos os módulos usam o mesmo projeto fictício das semanas anteriores: o **Buscador de Grupos de Estudo**, agora com os dados em um banco relacional. Se você tem um projeto próprio, o raciocínio de cada módulo se aplica da mesma forma — só troque o nome.
+Todos os módulos usam o mesmo projeto fictício das semanas anteriores: o **Buscador de Grupos de Estudo**, agora com os dados em um banco relacional. Se você tem um projeto próprio, o raciocínio de cada módulo se aplica da mesma forma, só troque o nome.
 
 ## Como funciona
 
 O Coffee & Code é **100% online**. Cada módulo foi escrito para ser autossuficiente: você estuda no seu ritmo, pode avançar mais rápido, voltar em semanas anteriores e consultar o material durante o projeto.
 
-Os encontros semanais, também online, existem para tirar dúvidas, revisar conceitos, programar junto e mostrar o que você produziu — **não para dar aula**:
+Os encontros semanais, também online, existem para tirar dúvidas, revisar conceitos, programar junto e mostrar o que você produziu, **não para dar aula**:
 
-- 🗓️ **quarta-feira** — 20h00 às 21h30
-- 🗓️ **sábado** — 10h00 às 11h30
+- **quarta-feira**: 20h00 às 21h30
+- **sábado**: 10h00 às 11h30
 
 Os dois trabalham o mesmo conteúdo. Escolha o que couber melhor na sua semana, e não precisa ficar o horário inteiro na call.
 
@@ -120,15 +120,15 @@ Todos os diagramas usados nos módulos estão em [`docs/assets/`](docs/assets/),
 
 ## Semanas anteriores
 
-- [SEM 01 — Kickoff & Design System](https://github.com/coffeecodepucpr/coffee-code-sem01)
-- [SEM 02 — Interface Web (Parte 1: Layout)](https://github.com/coffeecodepucpr/coffee-code-sem02)
-- [SEM 03 — Interface Web (Parte 2: Dinâmica)](https://github.com/coffeecodepucpr/coffee-code-sem03)
+- [SEM 01: Kickoff & Design System](https://github.com/coffeecodepucpr/coffee-code-sem01)
+- [SEM 02: Interface Web (Parte 1: Layout)](https://github.com/coffeecodepucpr/coffee-code-sem02)
+- [SEM 03: Interface Web (Parte 2: Dinâmica)](https://github.com/coffeecodepucpr/coffee-code-sem03)
 
 Trilha completa e próximas semanas: [perfil do Coffee & Code](https://github.com/coffeecodepucpr)
 
 ---
 
 ```text
-HTTP 418 — I'm a teapot
+HTTP 418: I'm a teapot
 > ready to code
 ```

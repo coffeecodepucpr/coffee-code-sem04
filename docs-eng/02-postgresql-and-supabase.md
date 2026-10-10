@@ -1,6 +1,6 @@
 # Module 02, PostgreSQL and Supabase
 
-🇧🇷 [Português](../docs/02-postgresql-e-supabase.md) · 🇺🇸 English
+[Português](../docs/02-postgresql-e-supabase.md) · English
 
 `WEEK 04 // Data Modeling`
 
