@@ -9,13 +9,8 @@
 > coffee loaded ✓
 ```
 
-Material da **Semana 04** da trilha do Coffee & Code, o clube de tecnologia da PUCPR.
+Material da **Semana 04** da trilha do Coffee & Code, clube de tecnologia fundado por estudantes de Engenharia de Software da PUCPR e aberto a todos que querem aprender construindo.
 
-## Sobre
-
-☕ Coffee & Code PUCPR — Semana 04: Modelagem de Dados. PostgreSQL, Supabase, DER, normalização (1FN a 3FN) e SQL, levando o Buscador de Grupos de Estudo dos arrays da Semana 03 para um banco relacional de verdade.
-
----
 
 Na Semana 03 as telas ganharam comportamento: o Login valida, o Dashboard renderiza e filtra os cards, o Perfil reage sem recarregar a página. Mas faça um teste: saia de um grupo e recarregue a página. O grupo está de volta. Os dados moram em arrays dentro do `script.js` e somem a cada recarregamento.
 
@@ -128,6 +123,8 @@ Todos os diagramas usados nos módulos estão em [`docs/assets/`](docs/assets/),
 - [SEM 01 — Kickoff & Design System](https://github.com/coffeecodepucpr/coffee-code-sem01)
 - [SEM 02 — Interface Web (Parte 1: Layout)](https://github.com/coffeecodepucpr/coffee-code-sem02)
 - [SEM 03 — Interface Web (Parte 2: Dinâmica)](https://github.com/coffeecodepucpr/coffee-code-sem03)
+
+Trilha completa e próximas semanas: [perfil do Coffee & Code](https://github.com/coffeecodepucpr)
 
 ---
 

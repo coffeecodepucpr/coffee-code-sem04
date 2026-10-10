@@ -9,13 +9,8 @@
 > coffee loaded ✓
 ```
 
-Material for **Week 04** of the Coffee & Code track, the technology club at PUCPR.
+Material for **Week 04** of the Coffee & Code track, a technology club founded by Software Engineering students at PUCPR and open to anyone who wants to learn by building.
 
-## About
-
-☕ Coffee & Code PUCPR — Week 04: Data Modeling. PostgreSQL, Supabase, ER diagrams, normalization (1NF to 3NF) and SQL, moving the Study Group Finder from Week 03's arrays into a real relational database.
-
----
 
 In Week 03 the screens got behavior: Login validates, the Dashboard renders and filters the cards, the Profile reacts without reloading the page. But try this: leave a group and reload the page. The group is back. The data lives in arrays inside `script.js` and disappears on every reload.
 
@@ -128,6 +123,8 @@ All diagrams used in the modules are in [`docs/assets/`](docs/assets/), in edita
 - [WEEK 01 — Kickoff & Design System](https://github.com/coffeecodepucpr/coffee-code-sem01)
 - [WEEK 02 — Web Interface (Part 1: Layout)](https://github.com/coffeecodepucpr/coffee-code-sem02)
 - [WEEK 03 — Web Interface (Part 2: Dynamic)](https://github.com/coffeecodepucpr/coffee-code-sem03)
+
+Full track and upcoming weeks: [Coffee & Code profile](https://github.com/coffeecodepucpr)
 
 ---
 
