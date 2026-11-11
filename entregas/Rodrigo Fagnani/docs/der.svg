@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Diagrama Entidade-Relacionamento do FixAqui</title>
+  <desc id="descricao">Diagrama com usuarios, categorias, profissionais_categorias, solicitacoes e avaliacoes e suas chaves e cardinalidades.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, sans-serif; fill: #24313f; }
+      .title { font-size: 25px; font-weight: bold; }
+      .entity-title { font-size: 17px; font-weight: bold; fill: #ffffff; }
+      .field { font-size: 14px; }
+      .key { font-weight: bold; fill: #176b55; }
+      .entity { fill: #ffffff; stroke: #526576; stroke-width: 2; rx: 8; }
+      .header { fill: #176b55; }
+      .relation { fill: none; stroke: #526576; stroke-width: 2; }
+      .cardinality { font-size: 13px; font-weight: bold; fill: #9a4b18; }
+    </style>
+  </defs>
+  <rect width="1200" height="790" fill="#f5f7f6"/>
+  <text x="40" y="42" class="title">FixAqui — Diagrama Entidade-Relacionamento</text>
+
+  <path class="relation" d="M360 145 H430"/>
+  <text x="365" y="135" class="cardinality">1</text>
+  <text x="405" y="135" class="cardinality">0..N</text>
+  <path class="relation" d="M840 145 H760"/>
+  <text x="812" y="135" class="cardinality">1</text>
+  <text x="765" y="135" class="cardinality">0..N</text>
+
+  <path class="relation" d="M360 270 H390 V408 H430"/>
+  <text x="365" y="260" class="cardinality">1 cliente</text>
+  <text x="400" y="398" class="cardinality">0..N</text>
+  <path class="relation" d="M360 300 H405 V460 H430"/>
+  <text x="365" y="320" class="cardinality">1 profissional</text>
+  <text x="405" y="478" class="cardinality">0..N</text>
+
+  <path class="relation" d="M840 280 H820 V540 H790"/>
+  <text x="800" y="270" class="cardinality">1</text>
+  <text x="792" y="558" class="cardinality">0..N</text>
+  <path class="relation" d="M790 445 H840"/>
+  <text x="794" y="435" class="cardinality">1</text>
+  <text x="812" y="435" class="cardinality">0..1</text>
+
+  <g>
+    <rect class="entity" x="40" y="80" width="320" height="265"/>
+    <path class="header" d="M48 80 H352 Q360 80 360 88 V116 H40 V88 Q40 80 48 80 Z"/>
+    <text class="entity-title" x="58" y="104">usuarios</text>
+    <text class="field key" x="58" y="143">PK  id : BIGINT</text>
+    <text class="field" x="58" y="172">nome : TEXT NOT NULL</text>
+    <text class="field" x="58" y="201">email : TEXT UNIQUE</text>
+    <text class="field" x="58" y="230">telefone : TEXT</text>
+    <text class="field" x="58" y="259">tipo : TEXT</text>
+    <text class="field" x="58" y="288">criado_em : TIMESTAMPTZ</text>
+  </g>
+
+  <g>
+    <rect class="entity" x="430" y="80" width="330" height="175"/>
+    <path class="header" d="M438 80 H752 Q760 80 760 88 V116 H430 V88 Q430 80 438 80 Z"/>
+    <text class="entity-title" x="448" y="104">profissionais_categorias</text>
+    <text class="field key" x="448" y="145">PK, FK  profissional_id</text>
+    <text class="field key" x="448" y="176">PK, FK  categoria_id</text>
+    <text class="field" x="448" y="211">Resolve a relacao N:N</text>
+  </g>
+
+  <g>
+    <rect class="entity" x="840" y="80" width="320" height="205"/>
+    <path class="header" d="M848 80 H1152 Q1160 80 1160 88 V116 H840 V88 Q840 80 848 80 Z"/>
+    <text class="entity-title" x="858" y="104">categorias</text>
+    <text class="field key" x="858" y="143">PK  id : BIGINT</text>
+    <text class="field" x="858" y="172">nome : TEXT UNIQUE</text>
+    <text class="field" x="858" y="201">descricao : TEXT</text>
+    <text class="field" x="858" y="230">criado_em : TIMESTAMPTZ</text>
+  </g>
+
+  <g>
+    <rect class="entity" x="430" y="350" width="360" height="260"/>
+    <path class="header" d="M438 350 H782 Q790 350 790 358 V386 H430 V358 Q430 350 438 350 Z"/>
+    <text class="entity-title" x="448" y="374">solicitacoes</text>
+    <text class="field key" x="448" y="414">PK  id : BIGINT</text>
+    <text class="field key" x="448" y="444">FK  cliente_id : usuarios.id</text>
+    <text class="field key" x="448" y="474">FK  profissional_id : usuarios.id</text>
+    <text class="field key" x="448" y="504">FK  categoria_id : categorias.id</text>
+    <text class="field" x="448" y="534">descricao : TEXT</text>
+    <text class="field" x="448" y="564">status : TEXT</text>
+    <text class="field" x="448" y="594">criado_em : TIMESTAMPTZ</text>
+  </g>
+
+  <g>
+    <rect class="entity" x="840" y="400" width="320" height="190"/>
+    <path class="header" d="M848 400 H1152 Q1160 400 1160 408 V436 H840 V408 Q840 400 848 400 Z"/>
+    <text class="entity-title" x="858" y="424">avaliacoes</text>
+    <text class="field key" x="858" y="463">PK  id : BIGINT</text>
+    <text class="field key" x="858" y="492">FK, UNIQUE  solicitacao_id</text>
+    <text class="field" x="858" y="521">nota : SMALLINT (1 a 5)</text>
+    <text class="field" x="858" y="550">comentario : TEXT</text>
+    <text class="field" x="858" y="579">criado_em : TIMESTAMPTZ</text>
+  </g>
+
+  <text class="field" x="40" y="675">Cardinalidades: cada associacao aponta para um profissional e uma categoria;</text>
+  <text class="field" x="40" y="700">cada solicitacao aponta para um cliente, um profissional e uma categoria;</text>
+  <text class="field" x="40" y="725">cada solicitacao pode ter zero ou uma avaliacao.</text>
+</svg>

@@ -1,0 +1,20 @@
+grupos:
+
+ID (chave primária),
+nome,
+horário,
+participante
+
+usuário:
+
+ID (chave primária),
+nome,
+email
+
+usuario_grupos:
+
+ID do usuário
+ID do grupo
+
+(Assim, uma pessoa pode entrar em vários grupos e um grupo pode
+ter várias pessoas)

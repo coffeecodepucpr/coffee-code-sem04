@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Learnplat</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/script.js" defer></script>
+
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="navbar__logo">Learning Platform</a>
+    <nav>
+      <ul class="navbar__links">
+        <li><a href="dashboard.html" aria-current="page">Dashboard</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html">Exit</a></li>
+        <li><a href="profile.html" class="avatar" aria-label="Go to profile">JS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <h1>Available subjects</h1>
+      <p>Pick your subject.</p>
+      <button class="button button-primary" type="button" id="button-new-group">New group</button><p></p>
+    </div>
+
+    <label for="search" class="search-label">Search</label>
+    <input type="search" id="search" class="search" placeholder="Search...">
+
+    <section class="dashboard-grid" aria-label="Available courses" id="dashboard-grid">
+    </section>
+  </main>
+</body>
+</html>
